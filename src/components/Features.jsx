@@ -116,9 +116,9 @@ const Features = () => {
                                 <img src={explore2Img} alt="titanium 2" className='feature-video g_grow'/>
                             </div>
                         </div>
-                        <div className='feature-text-container g_text'>
+                        <div className='feature-text-container'>
                             <div className='flex-1 flex-center'>
-                                <p className='feature-text'> iPhone 15 Pro is {' '}
+                                <p className='feature-text g_text'> iPhone 15 Pro is {' '}
                                 <span className='text-white'>
                                     the first iPhone to feature an aerospace-grade titanium design
                                 </span>,
@@ -126,7 +126,7 @@ const Features = () => {
                                 </p>
                             </div>
                             <div className='flex-1 flex-center'>
-                                <p className='feature-text'> Titanium has one of the best strength-to-weight ratios of any metal, making these our{' '}
+                                <p className='feature-text g_text'> Titanium has one of the best strength-to-weight ratios of any metal, making these our{' '}
                                 <span className='text-white'>
                                     lightest Pro models ever.
                                 </span>,
