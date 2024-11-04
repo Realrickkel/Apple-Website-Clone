@@ -42,6 +42,16 @@ const Features = () => {
             duration: 1,
         })
 
+        gsap.fromTo('.feature-title', {
+            opacity: 0,
+        },{
+            opacity: 1,
+            scrollTrigger: {
+                trigger: '.feature-title',
+                start: 'bottom 70%',
+            },
+        })
+
         gsap.fromTo("#highlights-glow-feat",{
             opacity: 0,
           },
@@ -85,7 +95,7 @@ const Features = () => {
             </div>
 
             <div className='flex flex-col justify-center items-center overflow-hidden'>
-                <div className='text-center mt-32 mb-24 relative'>
+                <div className='text-center mt-32 mb-24 relative feature-title'>
                     <div id="base-text-feat" className="">
                         <h2 className='text-5xl lg:text-7xl font-semibold'>iPhone.</h2>
                         <h2 className='text-5xl lg:text-7xl font-semibold'>Forged in titanium.</h2>
