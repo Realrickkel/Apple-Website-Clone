@@ -104,7 +104,7 @@ const VideoCarousel = () => {
                 })
                 //dit is de code van de nieuwe tijdlijn, hij start op 0 en verandert naar wit en daarna vult het balkje tot 100% voor de lengte van de video
                 anim.current.to(span[videoId], {
-                    width: 0,
+                    width: '20%',
                     backgroundColor: '#afafaf',
                     duration: 0,
                 })

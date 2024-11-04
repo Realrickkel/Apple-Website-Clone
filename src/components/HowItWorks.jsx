@@ -46,8 +46,8 @@ const HowItWorks = () => {
 //Heel simpel eigenlijk, we hebben een afbeelding van een telefoon die zetten we relative op de pagina, dmv de video dan absolute te maken plaatsen we die daar precies op.
   return (
     <section id='how-it-works' className="common-padding">
-        <div className='screen-max-width'>
-            <div id='chip' className='flex-center w-full my-20'>
+        <div className='screen-max-width overflow-hidden'>
+            <div id='chip' className='flex-center w-full my-20 overflow-hidden'>
                 <img src={chipImg} alt='chip' width={180} height={180}/>
             </div>
             <div className='flex flex-col items-center'>
