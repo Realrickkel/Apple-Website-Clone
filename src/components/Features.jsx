@@ -35,6 +35,7 @@ const Features = () => {
         },{ 
             scrub: 5.5 
         });
+        
         animateWithGsap('.g_text', {
             y: 0,
             opacity: 1,
